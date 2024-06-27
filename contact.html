@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Holiday Away Resort</title>
+
+    <meta name="author" content="Giselle Albarran">
+    <meta name="description" content="Fill out our form to get in contact and book your stay with us!">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- FAVICON -->
+    <link rel="icon" type="image/x-icon" href="Images/favicon(1).ico">
+
+    <!-- FONT IMPORTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
+
+    <!-- LINK TO STYLESHEET -->
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<header>
+    <h1>Holiday Away Resorts - Swiss Alps</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Accommodations</a></li>
+            <li><a href="#contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="hero-image">
+        <div class="hero-text">
+        </div>
+    </div>
+</header>
+<img src="Images/swiss-valley.jpg" alt="he beautiful Swiss Alp Valley's displayed in sunny skies. A river flows between the mountain ranges and is surrounded by greenery." width="1440" height="300">
+<main>
+    <p1>Please reach out to us with any questions or concerns. We are happy to help you plan your dream vacation with us!
+        Required fields marked with a *</p1>
+
+    <section id="form">
+        <h2>Contact Us</h2>
+    
+        <img src="/Users/gisellealbarran/Documents/git215/final/Images/swiss-sunset.jpg" alt="Mountain ranges shown during sunset, featuring a lake surrounded by forests." width="500" height="400">
+        <form action="https://wp.zybooks.com/form-viewer.php" method="POST" target="_blank">
+            <label for="my-name">Full Name*</label>
+            <input type="text" name="my-name" id="my-name" required>
+
+            <label for="my-email">Email*</label>
+	        <input type="email" name="my-email" id="my-email" required>
+
+            <label for="my-phone">Phone Number*</label>
+	        <input type="tel" name="my-phone" id="my-phone" required>
+
+            <fieldset>
+                <legend>Preferred Method of Contact</legend>
+    
+            <input type="radio" name="contact-pref" id="pref-email" checked>
+            <label for="pref-email">Email</label>
+    
+            <input type="radio" name="contact-pref" id="pref-phone">
+            <label for="pref-phone">Phone</label>
+            </fieldset>
+    
+            <label for="my-comments">Comments*</label>
+			<textarea name="my-comments" id="my-comments" required> </textarea>
+    
+            <input type="submit" name="my-submit" id="my-submit" value="Submit Form">	
+	    </form>
+
+    </section>
+</main>
+
+<footer>
+    <p>Copyright ©2023 - Holiday Away Resorts</p>
+    <p>This site is for educational purposes only</p>
+</footer>
+
+</html>
